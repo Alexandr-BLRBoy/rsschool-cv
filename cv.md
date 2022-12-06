@@ -31,3 +31,16 @@ function evenOrOdd(number) {
 ___
 I do not have work experience. I studied on my own, with the help of literature and documentation in the public domain.
 
+## Education :
+___
+I am taking RS School JS / FRONT-END. STAGE 0.
+
+## My English:
+___
+Level: Elementary (A2)
+
+## My contacts:
+___
+Phone: +375298146364
+Email: khramtsov92alexander@gmail.com
+Discord: Alexandr Belarusian-BOY
