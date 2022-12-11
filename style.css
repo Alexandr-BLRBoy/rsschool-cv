@@ -21,6 +21,12 @@ img {
     height: auto;
 }
 
+/* Body */
+
+body{
+    background-color: black;
+}
+
 
 /* main */
 
@@ -29,3 +35,56 @@ main{
     margin: 0 auto;
     background: rgb(58, 56, 56);
 }
+
+/* Nav */
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list__item{
+    margin-right: 20px;
+}
+
+.nav-link{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Name */
+
+.name-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.name{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.name-profession{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.name-pics{
+    max-width: 250px;
+    height: auto;
+}
+
