@@ -151,3 +151,113 @@ main{
     color: #ffffff;
     padding: 15px;
 }
+
+/* Section about */
+
+.about-me{
+    margin: 40px 0 50px 0;
+}
+
+.name{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #333333;
+    margin: 0 0 5px 70px;
+}
+
+.name span{
+    color: #6996DB;
+}
+
+.proffesion{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #333333;
+    margin: 0 0 18px 70px;
+}
+
+.about-me__text{
+    max-width: 440px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    margin-left: 70px;
+}
+
+/* Experience */
+
+.experience{
+    margin: 0 0 50px 70px;
+}
+
+.experience-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #6996DB;
+    margin-bottom: 18px;
+}
+
+.experience-text{
+    max-width: 440px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
+
+/* Education */
+
+.education{
+    margin: 0 0 50px 70px;
+}
+
+.education-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #6996DB;
+    margin-bottom: 18px;
+}
+
+.education-text{
+    max-width: 440px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
+
+/* English */
+
+.english{
+    margin: 0 0 50px 70px;
+}
+
+.english-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #6996DB;
+    margin-bottom: 18px;
+}
+
+.english-text{
+    max-width: 440px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
