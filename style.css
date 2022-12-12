@@ -21,70 +21,133 @@ img {
     height: auto;
 }
 
-/* Body */
-
-body{
-    background-color: black;
-}
-
-
-/* main */
+/* Main */
 
 main{
-    width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    background: rgb(58, 56, 56);
-}
-
-/* Nav */
-
-.nav-list{
     display: flex;
-    justify-content: center;
-    list-style-type: none;
-    font-family: 'Oswald', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
 }
 
-.nav-list__item{
-    margin-right: 20px;
+.main{
+    max-width: 350px;
+    background-color: #F0F6FF;
+    box-shadow: 4px 0px 4px rgba(105, 150, 219, 0.25);
 }
 
-.nav-link{
-    color: #ffffff;
-    text-decoration: none;
-    cursor: pointer;
+/* CV */
+
+.cv-foto{
+    max-width: 150px;
+    margin: 20px 45px;
 }
 
-/* Name */
+.cv-img{
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(105, 150, 219, 0.5));
+}
 
-.name-block{
+/* Contact */
+
+.contact-item{
+    margin: 0 10px 10px 10px;
+}
+
+.contact-box{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    margin-top: 50px;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #C7C7C7;
+    border-radius: 35px;
 }
 
-.name{
+.contact-icon{
+    max-width: 40px;
+    max-height: 40px;
+    background-color: #6996DB;
+    border-radius: 24px;
+    margin-right: 5px;
+}
+
+.contact-icon__img{
+    padding: 9px;
+}
+
+.contact-link{
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-size: 17px;
     font-weight: 700;
-    color: #ffffff;
+    line-height: 12px;
+    color: #6996DB;
+    text-decoration: none;
+    padding: 14px 16px 14px 0;
 }
 
-.name-profession{
+.git{
+    padding: 12px 8px 0 7px;
+}
+
+.email{
+    padding: 11.67px;
+}
+
+.tel{
+    padding: 7.07px 11.97px;
+}
+
+/* Skills */
+
+.Skills{
+    margin: 50px 0 50px 10px;
+}
+
+.skills-title{
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
     font-weight: 700;
+    line-height: 24px;
+    color: #6996DB;
+    margin-bottom: 35px;
+}
+
+.skills-gallery{
+    max-width: 220px;
+    display: flex;
+}
+
+.skills-items{
+    margin-right: 15px;
+}
+
+.skills-items:last-child{
+    margin-right: 0;
+}
+
+/* Code */
+
+.code{
+    margin-left: 10px;
+}
+
+.code-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #6996DB;
+    margin-bottom: 35px;
+}
+
+.code-example{
+    max-width: 300px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.code-example__text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
     color: #ffffff;
-    text-align: center;
+    padding: 15px;
 }
-
-.name-pics{
-    max-width: 250px;
-    height: auto;
-}
-
