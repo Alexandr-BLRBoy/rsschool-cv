@@ -20,3 +20,315 @@ img {
     width: 100%;
     height: auto;
 }
+
+/* Main */
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main{
+    max-width: 350px;
+    background-color: #F0F6FF;
+    box-shadow: 4px 0px 4px rgba(105, 150, 219, 0.25);
+}
+
+/* CV */
+
+.cv-foto{
+    max-width: 150px;
+    margin: 20px 45px;
+}
+
+.cv-img{
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(105, 150, 219, 0.5));
+}
+
+/* Contact */
+
+.contact-item{
+    margin: 0 10px 10px 10px;
+}
+
+.contact-box{
+    display: flex;
+    align-items: center;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #C7C7C7;
+    border-radius: 35px;
+}
+
+.contact-icon{
+    max-width: 40px;
+    max-height: 40px;
+    background-color: #6996DB;
+    border-radius: 24px;
+    margin-right: 5px;
+}
+
+.contact-icon__img{
+    padding: 9px;
+}
+
+.contact-link{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #6996DB;
+    text-decoration: none;
+    padding: 14px 16px 14px 0;
+}
+
+.git{
+    padding: 12px 8px 0 7px;
+}
+
+.email{
+    padding: 11.67px;
+}
+
+.tel{
+    padding: 7.07px 11.97px;
+}
+
+/* Skills */
+
+.Skills{
+    margin: 50px 0 50px 10px;
+}
+
+.skills-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #6996DB;
+    margin-bottom: 35px;
+}
+
+.skills-gallery{
+    max-width: 220px;
+    display: flex;
+}
+
+.skills-items{
+    margin-right: 15px;
+}
+
+.skills-items:last-child{
+    margin-right: 0;
+}
+
+/* Code */
+
+.code{
+    margin: 0 0 15px 10px;
+}
+
+.code-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #6996DB;
+    margin-bottom: 35px;
+}
+
+.code-example{
+    max-width: 300px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.code-example__text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px;
+}
+
+/* Aside */
+
+aside{
+    width: 655px;
+    background-color: #dddbdb64;
+    box-shadow: 4px 4px 4px rgb(105 150 219 / 25%);
+}
+
+/* Section about */
+
+.about-me{
+    margin: 40px 0 50px 0;
+}
+
+.name{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #333333;
+    margin: 0 0 5px 70px;
+}
+
+.name span{
+    color: #6996DB;
+}
+
+.proffesion{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #333333;
+    margin: 0 0 18px 70px;
+}
+
+.about-me__text{
+    max-width: 440px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    margin-left: 70px;
+}
+
+/* Experience */
+
+.experience{
+    max-width: 450px;
+    margin: 0 0 50px 70px;
+    position: relative;
+}
+
+.experience::after{
+    content: "";
+    position: absolute;
+    top: 105px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #C7C7C7;
+}
+
+.experience-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #6996DB;
+    margin-bottom: 18px;
+}
+
+.experience-text{
+    max-width: 440px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
+
+/* Education */
+
+.education{
+    max-width: 450px;
+    position: relative;
+    margin: 0 0 50px 70px;
+}
+
+.education::after{
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #C7C7C7;
+}
+
+.education-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #6996DB;
+    margin-bottom: 18px;
+}
+
+.education-text{
+    max-width: 440px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
+
+/* English */
+
+.english{
+    max-width: 450px;
+    position: relative;
+    margin: 0 0 50px 70px;
+}
+
+.english::after{
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #C7C7C7;
+}
+
+.english-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #6996DB;
+    margin-bottom: 18px;
+}
+
+.english-text{
+    max-width: 440px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
+
+/* Footer */
+
+.footer-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F0F6FF;
+}
+
+.year{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.footer-link{
+    max-width: 55px;
+}
+
+.footer-logo{
+    max-width: 85px;
+}
