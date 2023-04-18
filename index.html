@@ -73,6 +73,9 @@
                     <div class="skills-items">
                         <img class="skills-icon" src="./img/Skill-icon/Git-icon.svg" alt="Git icon">
                     </div>
+                    <div class="skills-items">
+                        <img class="skills-icon" src="./img/Skill-icon/JS-icon.svg" alt="Git icon">
+                    </div>
                 </div>
             </section>
 
@@ -80,12 +83,17 @@
                 <h2 class="code-title">My code example:</h2>
                 <div class="code-example">
                     <p class="code-example__text">
-                        function evenOrOdd(number) {<br>
-                         let result = ‘’;<br>
-                         let num = number;<br>
-                         if (num % 2 === 0) { result = ‘Even’; }
-                         else { result = ‘Odd’; }
-                         return result}
+                        function positiveSum(arr) {<br>
+                            const result = arr.reduce(function(sum, elem) {
+                              if (elem >= 0) {
+                                return sum + elem;
+                              } else {
+                                return sum + 0;
+                              }
+                            })
+                            return result;
+                          }
+                          console.log(positiveSum([1, 3, -5]))
                     </p>
                 </div>
             </section>
@@ -96,24 +104,27 @@
 
             <section class="about-me">
                 <h1 class="name"><span>Alexandr</span> Khramtsou</h1>
-                <h2 class="proffesion">Frontend-Developer</h2>
-                <p class="about-me__text">Hello! My name is Alexandr. I live in the city of Minsk and I am 30 years old. I became interested in programming a year and a half ago. Started with courses for beginners in HTML and CSS. Since I started to succeed, I decided to further develop in this direction and, on the advice of a friend, ended up on the RS School course ☑️ On the course, I hope to get the maximum amount of knowledge and practice in JS and front-end development.</p>
+                <h2 class="proffesion">Frontend-Developer (Junior)</h2>
+                <p class="about-me__text">
+                    Hello! My name is Alexander. I live in Minsk and I am 30 years old. I got interested in programming two years ago. I started with courses for beginners in HTML and CSS. Since I was beginning to get good at it, I decided to move further in this direction, and on the advice of a friend I signed up for an RS School course. At the moment I completed stage 0 and moved on to stage 1.
+                </p>
             </section>
 
             <section class="experience">
                 <h2 class="experience-title">Work experience:</h2>
                 <p class="experience-text">I have no work experience.
-                    I studied on my own, with the help of literature and documentation in the public domain.</p>
+                    I have no work experience. Unfortunately, I have no experience of working for a company. I haven't had any commercial projects either, as I learned on my own, based on publicly available information. There are layouts that I have done over the years, which I am willing to provide if needed.
+                </p>
             </section>
 
             <section class="education">
                 <h2 class="education-title">Education:</h2>
-                <p class="education-text">I am taking RS School JS / FRONT-END. STAGE 0.</p>
+                <p class="education-text">I am taking RS School JS / FRONT-END. STAGE 1.</p>
             </section>
 
             <section class="english">
                 <h2 class="english-title">My English:</h2>
-                <p class="english-text">Level: Elementary (A2)</p>
+                <p class="english-text">Level: Intermediate (B1)</p>
             </section>
 
         </aside>
@@ -121,7 +132,7 @@
     </main>
     <footer class="footer">
         <div class="footer-inner">
-            <span class="year">2022</span>
+            <span class="year">2023</span>
             <div class="footer-link">
                 <a class="footer-link__pics" href="https://github.com/Alexandr-BLRBoy" target="_blank">
                     <img class="footer-link__img" src="./img/Skill-icon/Git-icon.svg" alt="Git link">
