@@ -1,1 +1,1 @@
-https://Alexandr-BLRBoy.github.io/rsschool-cv-st.0/cv
+https://Alexandr-BLRBoy.github.io/rsschool-cv/cv
