@@ -486,8 +486,32 @@ img{
     max-width: 40px;
 }
 
+/* Footer */
 
+.footer{
+    background-color: rgb(247, 217, 64);
+}
 
+.footer_wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+
+.footer_git{
+    max-width: 100px;
+}
+
+.footer_rsschool{
+    max-width: 100px;
+}
+
+.footer_create{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
 
 
 
