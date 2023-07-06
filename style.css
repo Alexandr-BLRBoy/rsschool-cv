@@ -335,7 +335,7 @@ img{
 .main_container__right{
     background-color: white;
     width: 85%;
-    height: 100vh;
+    height: 100%;
 }
 
 .container_right__wrapper{
@@ -344,7 +344,7 @@ img{
 
 /* About */
 
-.about{
+.about_title{
     font-family: 'Inter', sans-serif;
     font-size: 25px;
     color: black;
@@ -408,4 +408,86 @@ img{
 .about_languages__list{
     padding: 15px 0 0 30px;
 }
+
+/* Code */
+
+.code_title{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    text-align: end;
+    margin-bottom: 5px;
+}
+
+.code_pics{
+    margin-top: 10px;
+}
+
+/* Projects */
+
+.projects_container{
+    max-width: 350px;
+    margin: 10px auto 0;
+    border: 2px solid rgb(247, 217, 64);
+    border-radius: 0 0 10px 10px;
+}
+
+.projects_title{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    text-align: end;
+    margin: 10px 0 5px 0;
+}
+
+.projects_info__title{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.projects_info__description{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: black;
+    max-width: 300px;
+    text-align: center;
+    margin: 5px auto;
+    padding-bottom: 10px;
+}
+
+.projects_pics{
+    transition: .3s ease-in-out;
+}
+
+.projects_img{
+    transition: .3s ease-in-out;
+}
+
+.projects_pics:hover{
+    transform: scale(1.1);
+}
+
+.projects_pics:hover .projects_img{
+    border-radius: 10px;
+}
+
+.projects_skills__list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects_skills__item{
+    max-width: 40px;
+}
+
+
+
+
+
 
