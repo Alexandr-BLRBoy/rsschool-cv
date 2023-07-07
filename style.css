@@ -57,12 +57,12 @@ html{
 .body_main{
     max-width: 900px;
     height: 100%;
-    background-color: black;
+    background-color: rgb(59, 56, 56);
     margin: 0 auto;
 }
 
 .body_wrapper{
-    background-color: rgb(34, 28, 28);
+    background-color: rgba(47, 30, 30, 0.524);
 }
 
 /* Header */
