@@ -424,8 +424,11 @@ html{
     margin-bottom: 5px;
 }
 
-.code_pics{
-    margin-top: 10px;
+.code_text{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: rgb(247, 217, 64);
 }
 
 /* Projects */
