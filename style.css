@@ -415,6 +415,10 @@ html{
 
 /* Code */
 
+.str_black__code{
+    margin-bottom: 15px;
+}
+
 .code_title{
     font-family: 'Inter', sans-serif;
     font-size: 25px;
@@ -424,10 +428,9 @@ html{
     margin-bottom: 5px;
 }
 
-.code_text{
+.code_example{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    margin-top: 15px;
     background-color: rgb(247, 217, 64);
 }
 
