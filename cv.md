@@ -1,4 +1,4 @@
-# Khramtsou Aleksandr 
+# Khramtsou Aleksandr
 ***
 
 ## My contact info:
@@ -7,7 +7,7 @@
 * Address: Belarus, Minsk
 * Tel: +375298146364
 * Email: Khramtsou92Alexander@gmail.com
-* Git-Hub: Alexandr-BLRBoy 
+* Git-Hub: Alexandr-BLRBoy
 
 ## Summary:
 ***
