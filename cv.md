@@ -40,7 +40,10 @@ function findNeedle(haystack) {
 
 ```
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> acbe8c0... fix: fix readme file and cv file.
 ## Education:
 ***
 
