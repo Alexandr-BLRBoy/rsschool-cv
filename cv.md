@@ -1,46 +1,68 @@
-# 💁‍♂️ Alexandr Khramtsou
-___
+# Khramtsou Aleksandr
+***
 
-## About me:
-___
-Hello! My name is Alexandr. I live in the city of Minsk  and I am 30 years old. 
-I became interested in programming a year and a half ago. Started with courses for beginners in HTML and CSS.
-Since I started to succeed, I decided to further develop in this direction and, on the advice of a friend, ended up on the RS School course ☑️
-On the course, I hope to get the maximum amount of knowledge and practice in JS and front-end development.
+## My contact info:
+***
 
-## My skill:
-___
+* Address: Belarus, Minsk
+* Tel: +375298146364
+* Email: Khramtsou92Alexander@gmail.com
+* Git-Hub: Alexandr-BLRBoy
+
+## Summary:
+***
+
+I am currently learning how to program. In this course for the second time, the first time I reached St.1, but due to life circumstances had to leave...
+I went to St.0 to fill the gaps that are there. Further in the plans to go to St.1. Also in parallel engaged individually in JS.
+
+## Skills:
+***
+
 * HTML
 * CSS
-* Mac iOS
+* JS
+* GitHub
+* Figma
 
-## My code example:
-___
-function evenOrOdd(number) {
-    let result = '';
-    let num = number;
-    if (num % 2 === 0){
-        result = 'Even';
-    } else {
-        result = 'Odd';
+## Code examples:
+***
+
+```
+function findNeedle(haystack) {
+  const arrMap = haystack.map(function(item, index) {
+    if(item === 'needle') {
+     return 'found the needle at position ' + index;
     }
-    return result
-    }
+  })
+  const result = arrMap.join('');
+  return result;
+}
 
-## Work experience 🧑‍💻 :
-___
-I do not have work experience. I studied on my own, with the help of literature and documentation in the public domain.
+```
 
-## Education :
-___
-I am taking RS School JS / FRONT-END. STAGE 0.
+## Education: 
+***
 
-## My English:
-___
-Level: Elementary (A2)
+* EUPHROSYNE POLOTSKAYA STATE UNIVERSITY
+    * Department of History and Tourism
 
-## My contacts:
-___
-Phone: +375298146364
-Email: khramtsov92alexander@gmail.com
-Discord: Alexandr Belarusian-BOY
+* VITEBSK POLYTECHNIC COLLEGE
+    * Department of Economics
+
+* RS SCHOOL online courses
+
+## Experience:
+***
+
+* No experience of working in an IT company on a real project, unfortunately
+
+* There is experience in freelancing, over projects on the layout and one-page sites
+
+## Languages: 
+***
+
+* English (B1)
+
+![LogoRS](../../../rs_school%20logo.svg)
+
+
