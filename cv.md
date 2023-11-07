@@ -40,7 +40,7 @@ function findNeedle(haystack) {
 
 ```
 
-## Education: 
+## Education:
 ***
 
 * EUPHROSYNE POLOTSKAYA STATE UNIVERSITY
@@ -58,7 +58,7 @@ function findNeedle(haystack) {
 
 * There is experience in freelancing, over projects on the layout and one-page sites
 
-## Languages: 
+## Languages:
 ***
 
 * English (B1)
